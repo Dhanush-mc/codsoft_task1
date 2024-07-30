@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+}
+
+.signup-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.signup-btn:hover {
+    background-color: #0056b3;
+}
+
+.header-content {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.header-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.header-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.header-content form {
+    margin-bottom: 20px;
+}
+
+.header-content input {
+    padding: 10px 15px;
+    font-size: 1em;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 250px;
+}
+
+.header-content button {
+    padding: 10px 15px;
+    font-size: 1em;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.header-content button:hover {
+    background-color: #0056b3;
+}
+
+.subtext {
+    font-size: 0.9em;
+    color: #999;
+}
+
+.features {
+    background-color: #fff;
+    padding: 50px 0;
+    margin-top: 20px;
+}
+
+.features .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    flex: 1;
+    min-width: 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+.feature h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
